@@ -3,21 +3,22 @@ const anchors = document.querySelectorAll('.header__link')
 
 for (let anchor of anchors) {
   anchor.addEventListener('click', function (e) {
-  e.preventDefault()
+    e.preventDefault()
 
-  const blockID = anchor.getAttribute('href').substr(1)
+    const blockID = anchor.getAttribute('href')
 
-  document.getElementById(blockID).scrollIntoView({
-  behavior: 'smooth',
-  block: 'start'
+    document.querySelector(blockID).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
     })
   })
 }
+
 // ----------menu-burger----------
 let openBurger = document.getElementById("open-burger");
 let closeBurger = document.getElementById("close-burger");
 let hideMenu = document.getElementById("hide-menu");
-let page = document.querySelector(".page");
+let page = document.querySelector("body");
 let link = document.querySelectorAll(".header__link");
 
 openBurger.addEventListener("click", function () {

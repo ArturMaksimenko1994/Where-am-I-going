@@ -5,6 +5,7 @@
 /* ------------PAGE------------ */
 @import url("./../blocks/page/page.css");
 @import url("./../blocks/page/_overflow/page_overflow.css");
+@import url("./../blocks/page-wraper/page-wraper.css");
 /* ------------HEADER------------ */
 @import url("./../blocks/header/header.css");
 @import url("./../blocks/header/__navigation/header__navigation.css");
