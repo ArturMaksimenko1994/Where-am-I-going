@@ -2,3 +2,15 @@
 .wish_big {
   grid-template-columns: repeat(1, 1fr);
 }
+
+@media screen and (max-width: 1024px) {
+  .wish_big {
+    grid-template-rows: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wish_big {
+    grid-template-rows: 300px;
+  }
+}

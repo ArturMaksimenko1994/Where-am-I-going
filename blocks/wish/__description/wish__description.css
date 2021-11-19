@@ -1,3 +1,17 @@
 .wish__description {
   align-self: center;
 }
+
+@media screen and (max-width: 768px) {
+  .wish__description {
+    text-align: center;
+    position: absolute;
+    padding: 0 25px;
+    z-index: 1;
+  }
+}
+@media screen and (max-width: 520px) {
+  .wish__description {
+    padding: 0 18px;
+  }
+}

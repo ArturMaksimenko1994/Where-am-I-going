@@ -1,0 +1,8 @@
+.popup__modal-block {
+  border: 0;
+  padding: 0;
+}
+
+.popup__modal-block:last-child {
+  text-align: center;
+}

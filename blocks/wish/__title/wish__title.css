@@ -3,10 +3,19 @@
   font-size: 45px;
   letter-spacing: 3.1px;
   line-height: 1.4;
+  text-align: left;
 }
 
 @media screen and (max-width: 1440px) {
   .wish__title {
     font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wish__title {
+    font-size: 20px;
+   color: white;
+   text-align: center;
   }
 }

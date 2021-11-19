@@ -4,7 +4,7 @@
   margin-bottom: 50px;
   line-height: 106%;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1024px) {
   .quotes__name {
     margin-bottom: 25px;
     text-align: center;

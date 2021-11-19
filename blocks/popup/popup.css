@@ -1,0 +1,9 @@
+.popup {
+  font-family: "Inter";
+  display: contents;
+}
+
+.popup .popup-top {
+  top: 50%;
+  opacity: 1;
+}

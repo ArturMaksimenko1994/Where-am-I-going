@@ -1,0 +1,12 @@
+.popup__modal {
+  max-width: 460px;
+  width: 100%;
+  background-color: white;
+  z-index: 999;
+  position: fixed;
+  left: 50%;
+  top: -400px;
+  transform: translate(-50%, -50%);
+  transition: 0.3s;
+  opacity: 0;
+}

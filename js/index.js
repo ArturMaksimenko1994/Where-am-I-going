@@ -1,4 +1,43 @@
+//----------anchor-link----------
+const anchors = document.querySelectorAll('.header__link')
 
+for (let anchor of anchors) {
+  anchor.addEventListener('click', function (e) {
+  e.preventDefault()
+
+  const blockID = anchor.getAttribute('href').substr(1)
+
+  document.getElementById(blockID).scrollIntoView({
+  behavior: 'smooth',
+  block: 'start'
+    })
+  })
+}
+// ----------menu-burger----------
+let openBurger = document.getElementById("open-burger");
+let closeBurger = document.getElementById("close-burger");
+let hideMenu = document.getElementById("hide-menu");
+let page = document.querySelector(".page");
+let link = document.querySelectorAll(".header__link");
+
+openBurger.addEventListener("click", function () {
+    hideMenu.style.width = "100%";
+    page.classList.add("page_overflow");
+})
+
+closeBurger.addEventListener("click", function () {
+    hideMenu.style.width = "0%";
+    page.classList.remove("page_overflow");
+})
+
+for (var i = 0 ; i < link.length; i++) {
+  link[i].addEventListener('click', function () {
+    hideMenu.style.width = "0%";
+    page.classList.remove("page_overflow");
+ });
+}
+
+//----------popup----------
  let modalBtn = document.querySelectorAll(".modal-btn");
  let closeBtn = document.getElementById("close-btn");
  let modalShadow = document.getElementById("modal-shadow");

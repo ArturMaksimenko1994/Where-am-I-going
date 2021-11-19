@@ -9,3 +9,9 @@
     max-width: 280px;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .header__navigation {
+    display: none;
+  }
+}

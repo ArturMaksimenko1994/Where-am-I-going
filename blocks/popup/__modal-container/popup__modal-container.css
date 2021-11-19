@@ -1,0 +1,12 @@
+.popup__modal-container {
+  max-width: 460px;
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 520px) {
+  .popup__modal-container {
+    padding: 15px;
+  }
+}

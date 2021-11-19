@@ -1,0 +1,10 @@
+.popup__modal-button {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background: #fecca5;
+  border: 1px solid #fecca5;
+  font-family: "Inter";
+}

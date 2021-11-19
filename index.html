@@ -19,7 +19,6 @@
   <meta name="theme-color" content="#ffffff">
 
   <link rel="stylesheet" href="./page/index.css">
-  <link rel="stylesheet" href="./style.css">
 
   <title>Путешествие по России</title>
 
@@ -30,23 +29,77 @@
         <nav class="header__navigation">
           <ul class="header__links">
             <li>
-              <a class="header__link" href="#" data-item='Мечты'>Мечты</a>
+              <a class="header__link" href="#flight" data-item='Мечты'>Мечты</a>
             </li>
             <li>
-              <a class="header__link" href="#" data-item='Ожидание'>Ожидание</a>
+              <a class="header__link" href="#terrain" data-item='Ожидание'>Ожидание</a>
             </li>
             <li>
-              <a class="header__link" href="#" data-item='Реальность'>Реальность</a>
+              <a class="header__link" href="#feedback" data-item='Реальность'>Реальность</a>
             </li>
           </ul>
         </nav>
         <span class="header__complain modal-btn" data-item='Пожаловаться'>Пожаловаться</span>
+        <div class="header__burger">
+          <div class="header__burger-open" id="open-burger"></div>
+          <div class="header__menu" id="hide-menu">
+              <div class="header__content">
+                  <nav class="menu__items">
+                    <ul class="header__links">
+                      <li>
+                        <a class="header__link" href="#flight" data-item='Мечты'>Мечты</a>
+                      </li>
+                      <li>
+                        <a class="header__link" href="#terrain" data-item='Ожидание'>Ожидание</a>
+                      </li>
+                      <li>
+                        <a class="header__link" href="#feedback" data-item='Реальность'>Реальность</a>
+                      </li>
+                  </nav>
+                  <span class="header__complain modal-btn header__complain_burger" data-item='Пожаловаться'>Пожаловаться</span>
+              </div>
+              <div class="header__burger-close" id="close-burger"></div>
+          </div>
+      </div>
+      <div class="popup">
+        <div class="popup__shadow hidden" id="modal-shadow"></div>
+        <div class="popup__modal" id="modal-popup">
+          <div class="popup__modal-container">
+            <h2 class="popup__modal-heading">Пожаловаться</h2>
+            <div class="popup__modal-exit" id="close-btn">
+              <img class="popup__modal-close" src="./images/popup/popup-close.svg" alt="выход из модального окна">
+            </div>
+            <form action="#" class="popup__modal-form">
+              <fieldset class="popup__modal-block">
+                <label for="heading" class="popup__modal-label">
+                  Телефон*
+                  <input type="text" class="popup__modal-input" id="heading" name="heading" placeholder="Введите номер телефона" required>
+                </label>
+                <label for="telephone" class="popup__modal-label">
+                  Email
+                  <input type="text" class="popup__modal-input" id="telephone" name="telephone" placeholder="Введите email">
+                </label>
+              </fieldset>
+              <fieldset class="popup__modal-block">
+                <label for="main-text" class="popup__modal-label">Жалобы*
+                  <textarea class="popup__modal-text" id="main-text" name="main-text" placeholder="Описание жалобы" required></textarea>
+                </label>
+              </fieldset>
+              <p class="popup__modal-floor"><span class="popup__modal-star">*</span> - поля, обязательные для заполнения</p>
+              <fieldset class="popup__modal-block">
+                <input type="submit" class="popup__modal-button">
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+
     </header>
 
     <main class="content">
 
-      <section class="flight">
-        <div class="wish">
+      <section class="flight" id="flight">
+        <div class="wish wish_shadow">
           <div class="wish__description">
             <p class="wish__subtitle">Куда я поеду</p>
             <h1 class="wish__title">Куда я поеду сразу, как можно будет куда-то поехать</h1>
@@ -55,8 +108,8 @@
         </div>
       </section>
 
-      <section class="terrain">
-        <ul class="terrain__items">
+      <section class="terrain" >
+        <ul class="terrain__items" id="terrain">
           <li class="terrain__item">
             <img class="terrain__img" src="./images/terrain/terrain-forest.jpeg" alt="в очень густом лесу, джунгли">
             <div class="terrain__description">
@@ -105,7 +158,7 @@
         </ul>
       </section>
 
-      <section class="feedback">
+      <section class="feedback" id="feedback">
         <div class="wish wish_big">
           <div class="wish__description">
             <p class="wish__subtitle wish__subtitle_short">Люди</p>
@@ -140,41 +193,7 @@
       <h2 class="footer__year">&copy; 2021</h2>
     </footer>
   </div>
-  <div class="popup">
-    <div class="popup__shadow hidden" id="modal-shadow"></div>
-    <div class="popup__modal" id="modal-popup">
-      <div class="popup__modal-container">
-        <h2 class="popup__modal-heading">Пожаловаться</h2>
-        <div class="popup__modal-exit" id="close-btn">
-          <img class="popup__modal-close" src="./images/popup/popup-close.svg" alt="выход из модального окна">
-        </div>
-        <form action="#" class="popup__modal-form">
-          <fieldset class="popup__modal-block">
-            <label for="heading" class="popup__modal-label">
-              Телефон*
-              <input type="text" class="popup__modal-input" id="heading" name="heading" placeholder="Введите номер телефона" required>
-            </label>
-            <label for="telephone" class="popup__modal-label">
-              Email
-              <input type="text" class="popup__modal-input" id="telephone" name="telephone" placeholder="Введите email">
-            </label>
-          </fieldset>
-          <fieldset class="popup__modal-block">
-            <label for="main-text" class="popup__modal-label">Жалобы*
-              <textarea class="popup__modal-text" id="main-text" name="main-text" placeholder="Описание жалобы" required></textarea>
-            </label>
-          </fieldset>
-          <fieldset class="popup__modal-block">
 
-          </fieldset>
-          <p class="header__modal-floor"><span class="header__modal-star">*</span> - поля, обязательные для заполнения</p>
-          <fieldset class="popup__modal-block">
-            <input type="submit" class="popup__modal-button">
-          </fieldset>
-        </form>
-      </div>
-    </div>
-  </div>
 <script src="./js/index.js"></script>
 </body>
 </html>

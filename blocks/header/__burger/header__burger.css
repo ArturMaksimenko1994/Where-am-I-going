@@ -1,0 +1,11 @@
+.header__burger {
+  display: none;
+}
+.hidden {
+  display: none;
+}
+@media screen and (max-width: 520px) {
+  .header__burger {
+    display: block;
+  }
+}

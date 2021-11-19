@@ -6,3 +6,8 @@
   font-weight: 600;
   color: #fecca5;
 }
+@media screen and (max-width: 768px) {
+  .wish__subtitle {
+   color: white;
+  }
+}

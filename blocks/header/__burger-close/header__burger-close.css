@@ -1,0 +1,10 @@
+.header__burger-close {
+  background-image: url(./../../../images/burger/burger-close.png);
+  background-size: cover;
+  background-position: center;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 30px;
+  right: 15px;
+}

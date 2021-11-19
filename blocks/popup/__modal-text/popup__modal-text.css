@@ -1,0 +1,19 @@
+.popup__modal-text {
+  margin-top: 10px;
+  padding: 10px;
+  color: #727376;
+  border: 1px solid black;
+  font-size: 16px;
+  line-height: 1.42857143;
+  width: 100%;
+  min-height: 115px;
+  max-height: 115px;
+  resize: none;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+.popup__modal-text:focus {
+  outline-color: #636060;
+}

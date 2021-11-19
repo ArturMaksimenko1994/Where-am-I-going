@@ -13,3 +13,10 @@
     grid-template-rows: 530px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .wish {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 430px;
+  }
+}

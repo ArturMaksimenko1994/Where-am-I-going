@@ -25,3 +25,10 @@
 }
 
 
+@media screen and (max-width: 520px) {
+  .terrain__text {
+    margin-bottom: 20px;
+    letter-spacing: inherit;
+    line-height: 18px;
+  }
+}

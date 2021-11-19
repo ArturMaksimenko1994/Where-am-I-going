@@ -1,0 +1,11 @@
+.popup__modal-heading {
+  margin: 0;
+
+  line-height: 1.3;
+  font-family: "Inter";
+}
+@media screen and (max-width: 520px) {
+  .popup__modal-heading  {
+    font-size: 22px;
+  }
+}

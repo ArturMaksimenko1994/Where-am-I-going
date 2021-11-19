@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
   .terrain__description_reverse {
     grid-column: 1;
     grid-row: 2;

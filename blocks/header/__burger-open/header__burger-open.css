@@ -1,0 +1,7 @@
+.header__burger-open {
+  background-image: url(./../../../images/burger/header-burger.png);
+  background-size: cover;
+  background-position: center;
+  width: 30px;
+  height: 30px;
+}

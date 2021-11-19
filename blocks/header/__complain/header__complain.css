@@ -12,7 +12,7 @@
   display: block;
   content: attr(data-item);
   transition: 0.4s;
-  color: #ff4c5b;
+  color: #fecca5;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -27,8 +27,14 @@
   transition: all 0.5s ease-in-out;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
   .header__complain {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .header__complain {
+    display: none;
   }
 }
