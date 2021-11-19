@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  max-width: 1920px;
+  min-height: 900px;
+  background: #fecda7;
+}
+
+@media screen and (max-width: 1720px) {
+  .footer {
+    min-height: 600px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .footer {
+    min-height: 500px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    min-height: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    min-height: 300px;
+  }
+}

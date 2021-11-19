@@ -1,0 +1,6 @@
+.wish__subtitle_short {
+  letter-spacing: 0.9px;
+  transform-origin: 0 0;
+  transform: scaleY(1.4);
+  font-size: 14px;
+}

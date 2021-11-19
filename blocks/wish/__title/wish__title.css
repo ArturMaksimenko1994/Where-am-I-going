@@ -1,0 +1,12 @@
+.wish__title {
+  margin: 0;
+  font-size: 45px;
+  letter-spacing: 3.1px;
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 1440px) {
+  .wish__title {
+    font-size: 28px;
+  }
+}

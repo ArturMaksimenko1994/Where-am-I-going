@@ -1,0 +1,144 @@
+.popup {
+
+}
+
+.popup__shadow {
+  position: fixed;
+  z-index: 990;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.popup__modal {
+  max-width: 460px;
+  width: 100%;
+  background-color: white;
+  z-index: 999;
+  position: fixed;
+  left: 50%;
+  top: -400px;
+  transform: translate(-50%, -50%);
+  transition: 0.3s;
+}
+
+.popup__modal_top {
+  top: 50%;
+}
+
+.popup__modal-container {
+  max-width: 380px;
+  width: 100%;
+  padding: 20px;
+}
+
+.popup__modal-heading {
+  margin: 0;
+  font-size: 36px;
+  line-height: 1.3;
+}
+
+.popup__modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 22px;
+  color: #0D0D0D;
+  transition: 0.3s;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.popup__modal-form {
+  box-sizing: border-box;
+}
+
+.popup__modal-block {
+  border: 0;
+  padding: 0;
+}
+
+.popup__modal-block:last-child {
+  text-align: center;
+}
+
+.popup__modal-label {
+  margin: 35px auto 0;
+  font-size: 20px;
+  line-height: 30px;
+  display:block;
+}
+
+.popup__modal-input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 48px;
+  padding: 0 10px 0 10px;
+  border: 1px solid black;
+  background: #fff;
+  color: #727376;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: inherit;
+  background-color: transparent;
+}
+
+.popup__modal-input:focus {
+  outline-color: #636060;
+}
+
+.popup__modal-text {
+  margin-top: 10px;
+  padding: 10px;
+  color: black;
+  border: 1px solid black;
+  font-size: 16px;
+  line-height: 1.42857143;
+  width: 100%;
+  min-height: 115px;
+  max-height: 115px;
+  resize: none;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+
+.popup__modal-text:focus {
+  outline-color: #636060;
+}
+
+.header__modal-floor {
+  color: black;
+  font-size: 16px;
+}
+
+.header__modal-star {
+  color: red;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.popup__modal-button {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.popup .popup-top {
+  top: 50%;
+}

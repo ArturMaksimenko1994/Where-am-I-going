@@ -1,0 +1,33 @@
+.header__link {
+  display: block;
+  font-size: 20px;
+  text-decoration: none;
+  color: #010101;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  font-weight: 600;
+}
+
+.header__link::before {
+  content: attr(data-item);
+  transition: 0.4s;
+  color: #0000FF;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+.header__link:hover::before {
+  width: 100%;
+  transition: all 0.4s ease-in-out;
+}
+@media screen and (max-width: 768px) {
+  .header__link {
+   font-size: 16px;
+  }
+}
+

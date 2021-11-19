@@ -1,0 +1,24 @@
+.terrain__item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 800px;
+}
+
+@media screen and (max-width: 1440px) {
+  .terrain__item {
+    grid-template-rows: 600px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .terrain__item {
+    grid-template-rows: 555px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .terrain__item {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 400px);
+  }
+}

@@ -1,0 +1,19 @@
+.terrain__description {
+  background: #f2f2f2;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1440px) {
+  .terrain__description {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .terrain__description {
+    padding: 30px 15px 30px 15px;
+  }
+}

@@ -1,0 +1,21 @@
+.feedback {
+  max-width: 1720px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1820px) {
+  .feedback {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .feedback {
+    padding: 0 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .feedback {
+    padding: 0 15px;
+  }
+}

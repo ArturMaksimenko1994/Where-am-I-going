@@ -1,0 +1,21 @@
+.terrain {
+  padding-top: 200px;
+}
+
+@media screen and (max-width: 1440px) {
+  .terrain {
+    padding-top: 150px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .terrain {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .terrain {
+    padding-top: 50px;
+  }
+}

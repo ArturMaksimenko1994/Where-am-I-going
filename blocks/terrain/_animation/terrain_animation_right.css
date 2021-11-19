@@ -1,0 +1,7 @@
+.terrain_animation_right {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: all 1.1s;
+}
+
+

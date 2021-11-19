@@ -1,0 +1,15 @@
+.wish {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 630px;
+  column-gap: 15px;
+  opacity: 0;
+  transform: translateY(150px);
+  transition: all 1.5s;
+}
+
+@media screen and (max-width: 1440px) {
+  .wish {
+    grid-template-rows: 530px;
+  }
+}

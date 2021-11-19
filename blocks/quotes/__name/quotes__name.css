@@ -1,0 +1,13 @@
+.quotes__name {
+  margin: 0;
+  font-size: 22px;
+  margin-bottom: 50px;
+  line-height: 106%;
+}
+@media screen and (max-width: 1440px) {
+  .quotes__name {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+}
+

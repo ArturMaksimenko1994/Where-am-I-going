@@ -1,0 +1,9 @@
+.terrain__comment {
+  max-width: 550px;
+}
+
+@media screen and (max-width: 720px) {
+  .terrain__comment {
+   max-width: 100%;
+  }
+}
