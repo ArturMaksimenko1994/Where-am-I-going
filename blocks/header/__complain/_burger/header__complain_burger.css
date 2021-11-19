@@ -1,4 +1,6 @@
 .header__complain_burger {
   display: block;
   color: white;
+  font-size: 28px;
+  margin-top: 10px;
 }
