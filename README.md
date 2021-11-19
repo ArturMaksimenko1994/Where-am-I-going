@@ -22,3 +22,4 @@ ___
 ## Ссылка на GitHub Pages:
 
 - тут будет ссылка как проект будет готов
+https://arturmaksimenko1994.github.io/Where-am-I-going/index.html
